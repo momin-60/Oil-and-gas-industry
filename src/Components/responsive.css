@@ -1,0 +1,231 @@
+@media (min-width:320px) and (max-width:575.99px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .all-mid{
+        margin: 0 auto;
+        padding: 9.063 0rem;
+        color: #F0F0F0;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .all-mid p{
+        margin: 20px 0px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+    }
+    .all-mid button{
+        margin-right:0px;
+    }
+    
+    /* -------------navbar----------- */
+    .Navbar{
+        background-color: red;
+        height: 50px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Navbar img{
+        width: 100px;
+    }
+    .Menu{
+        width: 60%;
+        display: flex;
+        align-self: center;
+    }
+    .Menu ul{
+        display: none;
+    }
+
+    .Navbar .btn{
+        display: none;
+    }
+    .menubtn{
+        color: white;
+        display: flex;
+        align-items: center;
+        display: block;
+    }
+    /* -----------Banner part----------- */
+.ban h1{
+    font-size: 16px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    /* padding-right: 688px; */
+    width: 300px;
+    line-height: 20px;
+}
+.ban button {
+	margin-bottom: 10px;
+	padding: 7px 10px;
+	font-size: 10px;
+	font-weight: 400;
+}
+/* ----------country part------------ */
+.country{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.country h1 {
+	font-size: 20px;
+	font-weight: 800;
+	width: 196px;
+}
+.country p {
+	font-size: 12px;
+	width: 440px;
+	line-height: 18px;
+}
+/* ---------petphoto--------- */
+.petphoto{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.petphoto img{
+    width: 94%;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    margin-bottom: 15px;
+}
+/*----------Service part----------*/
+.service{
+    background-color: #F0F0F0;
+}
+.service .up-part {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 10px;
+}
+.up-left1 h1{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+
+}
+.up-left1 p {
+	padding-bottom: 30px;
+	width: 300px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: center;
+}
+.up-left1{
+    width: 100%;
+}
+.up-left2{
+    width: 100%;
+    height: 30%;
+    background-position: center;
+    background-size: cover;
+}
+
+.up-left3{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0.4)), url(/src/assets/up-part3.png);
+    width: 100%;
+    height: 30%;
+}
+.up-left4{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0.4)), url(/src/assets/up-part4.png);
+    width: 100%;
+    height: 30%;
+}
+.buttom-part img{
+    width: 100%;
+}
+.buttom-part{
+    margin: 0px auto;
+    padding: 20px 0;
+}
+.buttom-part button {
+    top:56%;
+    right:36%;
+}
+.buttom-part p{
+    padding: 20px 30px;
+    width: 290px;
+    font-size: 1rem;
+    line-height: 30px;
+}
+/* ---------logo-all-------- */
+.logo-all img{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+
+}
+.logo-all{
+    row-gap: 10px;
+    justify-content: center;
+}
+/* --------ReadMore------- */
+.Read-mid p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 36px;
+    color: white;
+    width: 200px;
+    margin-bottom: 50px;
+}
+.readmore-down{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.Read1{
+    width: 100%;
+}
+.Read2{
+    width: 100%;
+}
+.Read3{
+    width: 100%;
+}
+.readmore-up {
+
+	padding-top: 50px;
+    row-gap: 10px;
+
+}
+.map-last h1 {
+	font-size: 25px;
+	line-height: 40px;
+	padding: 10px 0px;
+}
+/* ---------footer-part---------- */
+
+.footer-part {
+	padding: 30px 0px;
+}
+.footOne img{
+    width: 150px;
+}
+.footOne{
+    position: relative;
+}
+.footer-logo{
+    position: absolute;
+    top: 520px;
+}
+.footFour{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.copy-part p {
+	padding: 10px 0px;
+}
+
+
+
+}
